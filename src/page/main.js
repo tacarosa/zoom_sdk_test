@@ -19,11 +19,13 @@ class main extends Component {
 
         fetch('https://api.zoom.us/v2/users/', {
             method: 'GET',
-            // credentials : 'include',
             headers: {
-                // 'Access-Control-Allow-Origin': '*',
-                'Authorization': `Bearer ${token}` 
+                'Access-Control-Allow-Origin': '*',
+                'Authorization': `Bearer ${token}`,
+                // 'Accept': 'application/json', 
+                // 'Content-Type': 'application/json',
             },
+            credentials : 'include',
         })
         .then(response => {
             return response.json();
