@@ -8,6 +8,10 @@ Step OAuth 2
     -> daftar outh appnya di marketplace https://marketplace.zoom.us/ klik "Develop" di navbar trus pilih build app, stelah itu pilih OAuth trus klik create, ikuti langkah langkahnya di link point 1
 2. https://marketplace.zoom.us/docs/guides/auth/oauth
 
+Referensi Oauth 2
+1. https://github.com/zoom/zoom-oauth-sample-app
+2. https://ngrok.com/docs
+
 Terimakasih atas partisipasinya :)
 
 
