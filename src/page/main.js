@@ -20,7 +20,7 @@ class main extends Component {
         fetch('https://api.zoom.us/v2/users/', {
             method: 'GET',
             headers: {
-                'Access-Control-Allow-Origin': 'http://localhost:3000',
+                'Access-Control-Allow-Origin': 'http://localhost:4000',
                 'Authorization': `Bearer ${token}`,
                 'Accept': 'application/json', 
                 'Content-Type': 'application/json',
