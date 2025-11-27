@@ -13,7 +13,7 @@
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
   },
@@ -38,7 +38,7 @@
     "url-loader": "^1.1.2",
     "webpack": "^4.26.1",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10"
+    "webpack-dev-server": "^5.2.2"
   },
   "scripts": {
     "start": "set NODE_ENV=development && set BABEL_ENV=development && webpack-dev-server --config webpack.config.dev.js --https false --open http://localhost:9999/index.html --watch",
